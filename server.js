@@ -15,7 +15,7 @@ app.use('/static', express.static('images'))
 //app.use('/static',  express.static('questions'));
 app.use('/questions', (req, res) => {
     res.header("Content-Type",'application/json');
-    res.sendFile("c:\\users\\pgb15001\\t\\questionServe\\questions\\q_list1.json");
+    res.sendFile("c:\\users\\pgb15001\\t\\questionServe\\questions\\q_list2.json");
   });
 app.get('/test', (req, res) => res.json({ "answer": 42 }));
 
